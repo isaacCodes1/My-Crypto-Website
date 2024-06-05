@@ -1,0 +1,929 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+/* NavBar */
+.navGen{
+    background-color: #111010;
+    width: 100%; 
+    height: 100vh; 
+}
+.logoSection{
+    overflow: hidden;
+}
+.logoSec{
+    display: flex;
+    background-color: #111010;
+    height: 1000vh;
+    width: 100%;
+    align-items: center;    
+    padding-top: 30px;
+    gap: 20px;
+}
+#circles{
+    width: 100%;
+}
+.grad1{
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.lists ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: 580px;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+}
+#in{
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 96px;
+    height: 40px;
+    color: #fff;
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+#up{
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+    border: 1px solid transparent;
+    color: #fff;
+    width: 96px;
+    height: 40px;
+    position: absolute;
+    right: 170px;
+    border-radius: 10px;
+    top: 20px;
+}
+
+/* Landing Page */
+#greenGrad{
+    position: absolute;
+    top: 0px;
+    left: -10px;
+}
+#bigStr{
+    position: absolute;
+    top: 110px;
+    right: 300px;
+    animation: shine1 linear infinite 4s;
+}
+@keyframes shine1 {
+    0%{
+        transform: scale(0.1);
+        right: 280px;
+    }
+    100%{
+        transform: scale(1);
+        right: 300px;
+    }
+}
+#smallStr{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    animation: shine2 linear infinite 4s;
+}
+@keyframes shine2 {
+    0%{
+        transform: scale(0.1);
+        left: 220px;
+    }
+    100%{
+        transform: scale(1);
+        left: 200px;
+    }
+}
+#smallStr1{
+    position: absolute;
+    top: 750px;
+    right: 100px;
+    animation: shine3 linear infinite 4s;
+}
+@keyframes shine3 {
+    0%{
+        transform: scale(0.1);
+        right: 80px;
+    }
+    100%{
+        transform: scale(1);
+        right: 100px;
+    }
+}
+#tinyStr{
+    position: absolute;
+    top: 140px;
+    right: 200px;
+    animation: shine4 linear infinite 4s;
+}
+@keyframes shine4 {
+    0%{
+        transform: scale(0.1);
+        top: 170px;
+    }
+    100%{
+        transform: scale(1);
+        right: 200px;
+    }
+}
+#bitCoin{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    animation: float linear forwards 4s;
+}
+@keyframes float {
+    0%{
+        top: 100px;
+        transform: scale(0.5);
+        left: 120px;
+    }
+    100%{
+        top: 120px;
+        transform: scale(1);
+        left: 80px;
+    }
+}
+#orange1{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    animation: float1 linear forwards 4s;
+}
+@keyframes float1 {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+        top: 480px;
+        left: 190px;
+    }
+}
+#liteCoin{
+    position: absolute;
+    top: 610px;
+    left: 180px;
+    animation: float2 linear forwards 4s;
+}
+@keyframes float2 {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+        top: 640px;
+        left: 250px;
+    }
+}
+#mCoin{
+    position: absolute;
+    top: 120px;
+    right: 280px;
+    animation: float3 linear forwards 4s;
+}
+@keyframes float3 {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+        top: 98px;
+        right: 350px;
+    }
+}
+#etherum{
+    position: absolute;
+    top: 600px;
+    right: 200px;
+    animation: float4 linear forwards 4s;
+}
+@keyframes float4 {
+    from{
+        transform: scale(0.5);
+        top: 620px;
+        right: 380px;
+    }
+    to{
+        transform: scale(1);
+        top: 570px;
+        right: 250px;
+    }
+}
+#purpGrad{
+    position: absolute;
+    top: 50px;
+    right: -80px;
+}
+#purple{
+    position: absolute;
+    top: 370px;
+    right: -50px;
+}
+#crypt{
+    position:absolute;
+    top: 250px;
+    left: 400px;
+    font-size: 80px;
+    width: 800px;
+    color: #fff;
+    font-weight: 700;
+}
+#glass{
+    position: absolute;
+    top: 350px;
+    left: 418px;
+}
+#get{
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+    border: 1px transparent;
+    width: 156px;
+    height: 56px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 550px;
+    left: 700px;
+    font-weight: 600;
+}
+#texture{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+/* Grid */
+.threeDiv{
+    position: absolute;
+    top: 800px;
+    left: -80px;
+}
+.mother{
+    display: grid;
+    margin-left: 190px;
+    grid-template-columns: repeat(3, 380px);
+    gap: 30px;
+    grid-template-rows: repeat(1, 346px);
+}
+.children1{
+    background: rgba(26, 27, 35, 1);
+    border-radius: 25px;
+    padding: 32px 24px 32px 24px;
+}
+.children2{
+    background: rgba(26, 27, 35, 1);
+    padding: 32px 24px 32px 24px;
+    border-radius: 25px;
+}
+.children3{
+    background: rgba(26, 27, 35, 1);
+    padding: 32px 24px 32px 24px;
+    border-radius: 25px;
+}
+#create{
+    position: absolute;
+    left: 330px;
+}
+#createText{
+    position: absolute;
+    top: 150px;
+    font-weight: 700;
+    left: 320px;
+    font-size: 30px;
+    color: #fff;
+}
+#lorem1{
+    position: absolute;
+    left: 200px;
+    width: 350px;
+    top: 220px;
+    color: gray;
+    text-align: center;
+}
+#child1{
+    position: absolute;
+    top: 300px;
+    left: 330px;
+    color: rgba(185, 130, 255, 1);
+}
+#child2{
+    position: absolute;
+    color: rgba(185, 130, 255, 1);
+    top: 300px;
+    left: 730px;
+}
+#child3{
+    position: absolute;
+    color: rgba(185, 130, 255, 1);
+    top: 300px;
+    left: 1120px;
+}
+
+
+#arrow{
+    position: absolute;
+    left: 120px;
+}
+#arrow2{
+    position: absolute;
+    left: 120px;
+}
+#arrow3{
+    position: absolute;
+    left: 180px;
+}
+#login{
+    position: absolute;
+    left: 730px;
+}
+#loginTxt{
+    position: absolute;
+    top: 150px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    left: 730px;
+}
+#lorem2{
+    position: absolute;
+    width: 350px;
+    color: gray;
+    text-align: center;
+    top: 220px;
+    left: 615px;
+}
+#manage{
+    position: absolute;
+    left: 1140px;
+}
+#manageTxt{
+    position: absolute;
+    top: 150px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    left: 1130px;
+}
+#lorem3{
+    position: absolute;
+    width: 350px;
+    color: gray;
+    text-align: center;
+    top: 220px;
+    left: 1025px;
+}
+
+/* Looper section */
+.loop{
+    position: absolute;
+    top: 1400px;
+    right: -500px;
+}
+.loopTxt{
+    position: absolute;
+    top: 200px;
+    left: -700px;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    width: 1000px;
+    text-align: center;
+}
+#lorem4{
+    color: gray;
+    position: absolute;
+    top: 370px;
+    width: 650px;
+    text-align: center;
+    left: -500px;
+    line-height: 28px;
+}
+#get1{
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+    border: 1px transparent;
+    width: 156px;
+    height: 56px;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    top: -5770px;
+    left: 680px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#smallStr2{
+    position: absolute;
+    top: 1890px;
+    right: 400px;
+    animation: shine5 linear infinite 4s;
+}
+@keyframes shine5 {
+    0%{
+        transform: scale(0.5);
+        right: 400px;
+    }
+    100%{
+        transform: scale(1);
+        right: 430px;
+    }
+}
+#tinystr2{
+    position: absolute;
+    top: 1130px;
+    left: 40px;
+    animation: shine6 linear infinite 4s;
+}
+@keyframes shine6 {
+    0%{
+        left: 100px;
+        transform: scale(0.5);
+    }
+    100%{
+        left: 40px;
+        transform: scale(1);
+    }
+}
+#bigStr1{
+    position: absolute;
+    top: 1250px;
+    left: 100px;
+    animation: shine7 linear infinite 4s;
+}
+@keyframes shine7 {
+    0%{
+        transform: scale(0.5);
+        left: 140px;
+    }
+    100%{
+        transform: scale(1);
+        left: 100px;
+    }
+}
+#redGrad{
+    position: absolute;
+    top: 1800px;
+    left: -20px;
+}
+#userIcon{
+    position: absolute;
+    top: 2200px;
+    left: 250px;
+    z-index: 1;
+}
+#sphere{
+    position: absolute;
+    top: 2340px;
+    left: 180px;
+}
+#bigStr2{
+    position: absolute;
+    top: 2200px;
+    left: 200px;
+    animation: shine8 linear infinite 4s;
+}
+@keyframes shine8 {
+    0%{
+        transform: scale(0.5);
+        left: 300px;
+    }
+
+    100%{
+        transform: scale(1);
+        left: 200px;
+    }
+}
+#customerTxt{
+    position: absolute;
+    top: 2190px;
+    right: 200px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    width: 500px;
+}
+#lorem5{
+    position: absolute;
+    top: 2450px;
+    width: 500px;
+    line-height: 25px;
+    right: 200px;
+    color: gray;
+}
+#get3{
+    border: 1px solid white;
+    width: 156px;
+    height: 56px;
+    border-radius: 10px;
+    color: #fff;
+    position: absolute;
+    top: 2530px;
+    background: transparent;
+    right: 550px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Buy and sell */
+#buyTxt{
+    position: absolute;
+    top: 2900px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    width: 800px;
+    left: 320px;
+    text-align: center;
+}
+#lorem6{
+    position: absolute;
+    top: 3080px;
+    color: gray;
+    text-align: center;
+    width: 500px;
+    left: 480px;
+    line-height: 26px;
+}
+#Learn{
+    position: absolute;
+    top: 3180px;
+    left: 650px;
+}
+#arrows{
+    position: absolute;
+    top: 3175px;
+    left: 750px;
+}
+
+/* Table */
+.table{
+    width: 1180px;
+    height: 408px;
+    padding: 30px 32px 20px 32px;
+    position: absolute;
+    z-index: 1;
+    top: 3300px;
+    background:  rgba(26, 27, 35, 1);
+    border-radius: 25px;
+    margin-left: 120px;
+}
+#bitTxt{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(43, 44, 59, 1);
+}
+#short1{
+    position: absolute;
+    color: rgba(185, 130, 255, 1);
+    top: 30px;
+    left: 250px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#price1{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    top: 30px;
+    left: 450px;
+}
+#add1{
+    position: absolute;
+    color: rgba(13, 187, 124, 1);
+    ;
+    top: 30px;
+    left: 650px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#graph1{
+    position: absolute;
+    top: 10px;
+    left: 750px;
+}
+#trade1{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    top: 30px;
+    left: 1000px;
+}
+#traAr1{
+    position: absolute;
+    top: 2px;
+    left: 120px;
+}
+
+
+
+#ethTxt{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(43, 44, 59, 1);
+}
+#short2{
+    position: absolute;
+    color: rgba(185, 130, 255, 1);
+    top: 100px;
+    left: 250px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#price2{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    top: 100px;
+    left: 465px;
+}
+#add2{
+    position: absolute;
+    color: rgba(13, 187, 124, 1);
+    top: 100px;
+    left: 650px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#graph2{
+    position: absolute;
+    top: 100px;
+    left: 750px;
+}
+#trade2{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    top: 100px;
+    left: 1000px;
+}
+#traAr2{
+    position: absolute;
+    top: 2px;
+    left: 120px;
+}
+
+
+#cardanoTxt{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(43, 44, 59, 1);
+}
+#short3{
+    position: absolute;
+    color: rgba(185, 130, 255, 1);
+    top: 170px;
+    left: 250px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#price3{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    top: 170px;
+    left: 510px;
+}
+#add3{
+    position: absolute;
+    color: rgba(13, 187, 124, 1);
+    top: 170px;
+    left: 650px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#graph3{
+    position: absolute;
+    top: 170px;
+    left: 750px;
+}
+#trade3{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    top: 170px;
+    left: 1000px;
+}
+#traAr3{
+    position: absolute;
+    top: 2px;
+    left: 120px;
+}
+
+
+#wax{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(43, 44, 59, 1);
+}
+#short4{
+    position: absolute;
+    color: rgba(185, 130, 255, 1);
+    top: 240px;
+    left: 250px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#price4{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    top: 240px;
+    left: 510px;
+}
+#add4{
+    position: absolute;
+    color: rgba(255, 130, 130, 1);
+    top: 240px;
+    left: 650px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#graph4{
+    position: absolute;
+    top: 230px;
+    left: 750px;
+}
+#trade4{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    top: 240px;
+    left: 1000px;
+}
+#traAr4{
+    position: absolute;
+    top: 2px;
+    left: 120px;
+}
+
+
+#Polkadot{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(43, 44, 59, 1);
+}
+#short5{
+    position: absolute;
+    color: rgba(185, 130, 255, 1);
+    top: 310px;
+    left: 250px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#price5{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    top: 310px;
+    left: 500px;
+}
+#add5{
+    position: absolute;
+    color: rgba(13, 187, 124, 1);
+    top: 310px;
+    left: 650px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#graph5{
+    position: absolute;
+    top: 310px;
+    left: 750px;
+}
+#trade5{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    top: 310px;
+    left: 1000px;
+}
+#traAr5{
+    position: absolute;
+    top: 2px;
+    left: 120px;
+}
+
+/* First Step */
+#loopers{
+    position: absolute;
+    top: 3300px;
+    left: -500px;
+}
+.firstStepTxt{
+    position: absolute;
+    top: 4000px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    width: 600px;
+    left: 120px;
+}
+#lorem7{
+    position: absolute;
+    top: 4300px;
+    color: gray;
+    line-height: 25px;
+    left: 120px;
+    width: 600px;
+}
+#bagg{
+    position: absolute;
+    top: 4000px;
+    right: 100px;
+}
+#get4{
+    position: absolute;
+    top: 4400px;
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+    border: 1px transparent;
+    width: 156px;
+    height: 56px;
+    border-radius: 10px;
+    left: 120px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+#purpGrad1{
+    position: absolute;
+    top: 3600px;
+    right: -250px;
+}
+
+/* Footer Form */
+.form{
+    /* border-bottom: 1px solid rgba(43, 44, 59, 1); */
+    border-bottom: 1px solid red;
+    position: absolute;
+    top: 4700px;
+}
+.grad11{
+    position: absolute;
+    top: 4700px;
+}
+#receive{
+    position: absolute;
+    top: 4700px;
+    font-size: 50px;
+    font-weight: 700;
+    left: 350px;
+    color: #fff;
+}
+#unsub{
+    position: absolute;
+    top: 4800px;
+    left: 500px;
+    color: gray;
+}
+#privacy{
+    color: #fff;
+}
+#emailAdd{
+    position: absolute;
+    top: 4900px;
+    left: 520px;
+    width: 304px;
+    height: 56px;
+    border: 1px solid  #18c8ff 14.89%, #933ffe 85.85%;
+    padding: 16px 20px 16px 20px;
+    outline: none;
+    border-radius: 10px;
+    background: transparent;
+}
+input{
+    color: #fff;
+}

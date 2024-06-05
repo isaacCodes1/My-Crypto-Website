@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+/* NavBar */
+.navGen{
+    background-color: #111010;
+    width: 100%; 
+    height: 100vh; 
+}
+.logoSection{
+    overflow: hidden;
+}
+.logoSec{
+    display: flex;
+    background-color: #111010;
+    height: 1000vh;
+    width: 100%;
+    align-items: center;    
+    padding-top: 30px;
+    gap: 20px;
+}
+#circles{
+    width: 100%;
+}
+.grad1{
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.lists ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: 580px;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+}
+#in{
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 96px;
+    height: 40px;
+    color: #fff;
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+#up{
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+    border: 1px solid transparent;
+    color: #fff;
+    width: 96px;
+    height: 40px;
+    position: absolute;
+    right: 170px;
+    border-radius: 10px;
+    top: 20px;
+}
+
+/* Landing Page */
+#greenGrad{
+    position: absolute;
+    top: 0px;
+    left: -10px;
+}
+#bigStr{
+    position: absolute;
+    top: 110px;
+    right: 300px;
+}
+#bitCoin{
+    position: absolute;
+    top: 110px;
+    left: 60px;
+}
+#orange1{
+    position: absolute;
+    top: 400px;
+    left: 70px;
+}
+#liteCoin{
+    position: absolute;
+    top: 610px;
+    left: 180px;
+}
+#smallStr1{
+    position: absolute;
+}

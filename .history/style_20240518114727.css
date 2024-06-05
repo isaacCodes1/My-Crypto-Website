@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+/* NavBar */
+.navGen{
+    background-color: #111010;
+    width: 100%; 
+    height: 100vh; 
+}
+.logoSection{
+    overflow: hidden;
+}
+.logoSec{
+    display: flex;
+    background-color: #111010;
+    height: 1000vh;
+    width: 100%;
+    align-items: center;    
+    padding-top: 30px;
+    gap: 20px;
+}
+#circles{
+    width: 100%;
+}
+.grad1{
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.lists ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: 580px;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+}
+#in{
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 96px;
+    height: 40px;
+    color: #fff;
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+#up{
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+    border: 1px solid transparent;
+    color: #fff;
+    width: 96px;
+    height: 40px;
+    position: absolute;
+    right: 170px;
+    border-radius: 10px;
+    top: 20px;
+}
+
+/* Landing Page */
+#greenGrad{
+    position: absolute;
+    top: 0px;
+    left: -10px;
+}
+#bigStr{
+    position: absolute;
+    top: 110px;
+    right: 300px;
+    animation: shine1 linear infinite 4s;
+}
+@keyframes shine1 {
+    0%{
+        transform: scale(0.1);
+        right: 280px;
+    }
+    100%{
+        transform: scale(1);
+        right: 300px;
+    }
+}
+#smallStr{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    animation: shine2 linear infinite 4s;
+}
+@keyframes shine2 {
+    0%{
+        transform: scale(0.1);
+        left: 220px;
+    }
+    100%{
+        transform: scale(1);
+        left: 200px;
+    }
+}
+#smallStr1{
+    position: absolute;
+    top: 780px;
+    right: 100px;
+    animation: shine3 linear infinite 4s;
+}
+@keyframes shine3 {
+    0%{
+        transform: scale(0.1);
+        right: 80px;
+    }
+    100%{
+        transform: scale(1);
+        right: 100px;
+    }
+}
+#tinyStr{
+    position: absolute;
+    top: 140px;
+    right: 200px;
+    animation: shine4 linear infinite 4s;
+}
+@keyframes shine4 {
+    0%{
+        transform: scale(0.1);
+        top: 170px;
+    }
+    100%{
+        transform: scale(1);
+        right: 200px;
+    }
+}
+#bitCoin{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    animation: float linear forwards 4s;
+}
+@keyframes float {
+    0%{
+        top: 100px;
+        transform: scale(0.5);
+        left: 150px;
+    }
+    100%{
+        top: 120px;
+        transform: scale(1);
+        left: 80px;
+    }
+}
+#orange1{
+    position: absolute;
+    top: 400px;
+    left: 60px;
+    animation: float1 linear forwards 4s;
+}
+@keyframes float1 {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+        top: 480px;
+        left: 120px;
+    }
+}
+#liteCoin{
+    position: absolute;
+    top: 680px;
+    left: 180px;
+    animation: float2 linear forwards 4s;
+}
+@keyframes float2 {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+        top: 700px;
+        left: 250px;
+    }
+}
+#mCoin{
+    position: absolute;
+    top: 180px;
+    right: 220px;
+    animation: float3 linear forwards 4s;
+}
+@keyframes float3 {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+        top: 140px;
+        right: 300px;
+    }
+}
+#etherum{
+    position: absolute;
+    top: 580px;
+    right: 200px;
+    animation: float4 linear forwards 4s;
+}
+@keyframes float4 {
+    from{
+        transform: scale(0.5);
+        top: 670px;
+        right: 380px;
+    }
+    to{
+        transform: scale(1);
+        top: 620px;
+        right: 250px;
+    }
+}
+#purpGrad{
+    position: absolute;
+    top: 50px;
+    right: -80px;
+}
+#purple{
+    position: absolute;
+    top: 370px;
+    right: -50px;
+}
+#crypt{
+    position:absolute;
+    top: 250px;
+    left: 450px;
+    font-size: 80px;
+    width: 800px;
+    color: #fff;
+    font-weight: 700;
+}
+#glass{
+    position: absolute;
+    top: 350px;
+    left: 470px;
+}
+#get{
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+    border: 1px transparent;
+    width: 156px;
+    height: 56px;
+    border-radius: 10px;
+    color: #fff;
+    position: absolute;
+    top: 550px;
+    left: 700px;
+}
+#texture{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+/* Grid */
+.threeDiv{
+    position: absolute;
+    top: 900px;
+}
+.mother{
+    display: grid;
+    margin-left: 190px;
+    grid-template-columns: repeat(3, 380px);
+    gap: 30px;
+    grid-template-rows: repeat(1, 346px);
+}
+.children1{
+    background: rgba(26, 27, 35, 1);
+    border-radius: 25px;
+    padding: 32px 24px 32px 24px;
+}
+.children2{
+    background: rgba(26, 27, 35, 1);
+    padding: 32px 24px 32px 24px;
+    border-radius: 25px;
+}
+.children3{
+    background: rgba(26, 27, 35, 1);
+    padding: 32px 24px 32px 24px;
+    border-radius: 25px;
+}
+#create{
+    position: absolute;
+    left: 330px;
+}
+#createText{
+    position: absolute;
+    top: 150px;
+    font-weight: 700;
+    left: 320px;
+    font-size: 30px;
+    color: #fff;
+}
+#lorem1{
+    position: absolute;
+    left: 200px;
+    width: 350px;
+    top: 220px;
+    color: gray;
+    text-align: center;
+}
+#child1{
+    position: absolute;
+    top: 300px;
+    left: 330px;
+    color: rgb(140, 33, 140);
+}
+#child2{
+    position: absolute;
+    color: rgb(140, 33, 140);
+    top: 300px;
+    left: 730px;
+}
+#child3{
+    position: absolute;
+    color: rgb(140, 33, 140);
+    top: 300px;
+    left: 1120px;
+}
+
+
+#arrow{
+    position: absolute;
+    left: 120px;
+}
+#arrow2{
+    position: absolute;
+    left: 120px;
+}
+#arrow3{
+    position: absolute;
+    left: 180px;
+}
+#login{
+    position: absolute;
+    left: 730px;
+}
+#loginTxt{
+    position: absolute;
+    top: 150px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    left: 730px;
+}
+#lorem2{
+    position: absolute;
+    width: 350px;
+    color: gray;
+    text-align: center;
+    top: 220px;
+    left: 615px;
+}
+#manage{
+    position: absolute;
+    left: 1140px;
+}
+#manageTxt{
+    position: absolute;
+    top: 150px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    left: 1130px;
+}
+#lorem3{
+    position: absolute;
+    width: 350px;
+    color: gray;
+    text-align: center;
+    top: 220px;
+    left: 1025px;
+}
+
+/* Looper section */
+.loop{
+    position: absolute;
+    top: 1400px;
+    right: -400px;
+}
+.loopTxt{
+    position: absolute;
+    top: 200px;
+    left: -450px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    width: 700px;
+    text-align: center;
+}
+#lorem4{
+    color: gray;
+    position: absolute;
+    top: 370px;
+    width: 650px;
+    text-align: center;
+    left: -400px;
+    line-height: 28px;
+}
+#get1{
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+    border: 1px transparent;
+    width: 156px;
+    height: 56px;
+    border-radius: 10px;
+    color: red;
+    position: absolute;
+    top: 120px;
+    left: 700px;
+}

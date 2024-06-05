@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    width: 100%;
+}
+/* NavBar */
+.navGen{
+    /* display: flex; */
+    background-color: #111010;
+    width: 100%;
+    height: 100vh;  
+}
+.logoSec{
+    display: flex;
+    background-color: #111010;
+    height: 1000vh;
+    width: 100%;
+    align-items: center;    
+    padding-top: 30px;
+    gap: 20px;
+}
+.grad1{
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.lists ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: 580px;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+}
+#in{
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 96px;
+    height: 40px;
+    color: #fff;
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+#up{
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+    border: 1px solid transparent;
+    color: #fff;
+    width: 96px;
+    height: 40px;
+    position: absolute;
+    right: 170px;
+    border-radius: 10px;
+    top: 20px;
+}
+
+/* Landing Page */
+
+.landingGen{
+    display: flex;
+}
+#e1{
+    position: absolute;
+    width: 1187px;
+    height: 514px;
+    transform: rotate(-0deg);
+    left: 90px;
+    top: 129px;
+}
+#e2{
+    position: absolute;
+    width: 1450px;
+    height: 720px;
+    top: 50px;
+    left: -124px;
+    transform: rotate(-5deg);
+}
+#e3{
+    position: absolute;
+    width: 1630px;
+    height: 1002px;
+    top: -40px;
+    left: -306px;
+    right: 0px;
+    transform: rotate(-15deg);
+}
+#bit1{
+    position: absolute;
+    top: 140px;
+    left: 90px;
+    animation: float linear forwards 4s;
+}
+@keyframes float {
+    0%{
+        left: 150px;
+        top: 100px;
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+#orange{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    animation: float1 linear forwards 4s;
+}
+@keyframes float1 {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        top: 420px;
+        left: 200px;
+        transform: scale(1);
+    }
+}
+#lit1{
+    position: absolute;
+    top: 640px;
+    left: 280px;
+    animation: float2 linear forwards 4s;
+}
+@keyframes float2 {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        top: 640px;
+        left: 380px;        
+        transform: scale(1);
+    }
+}
+#star1{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    animation: shine linear infinite 4s;
+}
+@keyframes shine {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        top: 250px;
+        left: 280px;
+    }
+}
+#we{
+    color: #fff;
+    position: absolute;
+    top: 250px;
+    left: 380px;
+    width: 800px;
+}
+#we p{
+    font-size: 80px;
+    font-weight: 700;
+}
+#purple1{
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+#purpleC{
+    position: absolute;
+    top: 400px;
+    right: 0;
+}
+#bigS{
+    position: absolute;
+    top: 100px;
+    right: 250px;
+    animation: shine1 linear infinite 4s;
+}
+@keyframes shine1 {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        top: 100px;
+        right: 230px;
+    }
+}
+#smallS{
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    animation: shine2 linear infinite 4s;
+}
+@keyframes shine2 {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        top: 150px;
+        right: 130px;
+    }
+}
+#mCoin{
+    position: absolute;
+    top: 100px;
+    right: 350px;
+    animation: float3;
+}
+#etherum1{
+    position: absolute;
+    top: 530px;
+    right: 270px;
+}
+#star2{
+    position: absolute;
+    top: 680px;
+    right: 230px;
+}

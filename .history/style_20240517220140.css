@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+/* NavBar */
+.navGen{
+    background-color: #111010;
+    width: 100%; 
+    height: 100vh; 
+}
+.logoSection{
+    overflow: hidden;
+}
+.logoSec{
+    display: flex;
+    background-color: #111010;
+    height: 1000vh;
+    width: 100%;
+    align-items: center;    
+    padding-top: 30px;
+    gap: 20px;
+}
+#circles{
+    width: 100%;
+}
+.grad1{
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.lists ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: 580px;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+}
+#in{
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 96px;
+    height: 40px;
+    color: #fff;
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+#up{
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+    border: 1px solid transparent;
+    color: #fff;
+    width: 96px;
+    height: 40px;
+    position: absolute;
+    right: 170px;
+    border-radius: 10px;
+    top: 20px;
+}
+
+/* Landing Page */
+#greenGrad{
+    position: absolute;
+    top: 0px;
+    left: -10px;
+}
+#bigStr{
+    position: absolute;
+    top: 110px;
+    right: 300px;
+    animation: shine1 linear infinite 4s;
+}
+@keyframes shine1 {
+    0%{
+        transform: scale(0.1);
+        right: 280px;
+    }
+    100%{
+        transform: scale(1);
+        right: 300px;
+    }
+}
+#smallStr{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    animation: shine2 linear infinite 4s;
+}
+@keyframes shine2 {
+    0%{
+        transform: scale(0.1);
+        left: 220px;
+    }
+    100%{
+        transform: scale(1);
+        left: 200px;
+    }
+}
+#smallStr1{
+    position: absolute;
+    top: 780px;
+    right: 100px;
+    animation: shine3 linear infinite 4s;
+}
+@keyframes shine3 {
+    0%{
+        transform: scale(0.1);
+        right: 80px;
+    }
+    100%{
+        transform: scale(1);
+        right: 100px;
+    }
+}
+#tinyStr{
+    position: absolute;
+    top: 140px;
+    right: 200px;
+    animation: shine4 linear infinite 4s;
+}
+@keyframes shine4 {
+    0%{
+        transform: scale(0.1);
+        top: 170px;
+    }
+    100%{
+        transform: scale(1);
+        right: 200px;
+    }
+}
+#bitCoin{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    animation: float linear forwards 4s;
+}
+@keyframes float {
+    0%{
+        top: 100px;
+        transform: scale(0.5);
+        left: 150px;
+    }
+    100%{
+        top: 120px;
+        transform: scale(1);
+        left: 80px;
+    }
+}
+#orange1{
+    position: absolute;
+    top: 400px;
+    left: 70px;
+    animation: float1 linear forwards 4s;
+}
+@keyframes float1 {
+    to{
+        transform: scale(1);
+        top: 450px;
+        left: 130px;
+    }
+}
+#liteCoin{
+    position: absolute;
+    top: 680px;
+    left: 180px;
+}
+#mCoin{
+    position: absolute;
+    top: 200px;
+    right: 220px;
+}
+#etherum{
+    position: absolute;
+    top: 580px;
+    right: 200px;
+}
+#purpGrad{
+    position: absolute;
+    top: 50px;
+    right: -80px;
+}
+#purple{
+    position: absolute;
+    top: 370px;
+    right: -50px;
+}
+#crypt{
+    position:absolute;
+    top: 250px;
+    left: 450px;
+    font-size: 80px;
+    width: 800px;
+    color: #fff;
+    font-weight: 700;
+}
+#glass{
+    position: absolute;
+}
